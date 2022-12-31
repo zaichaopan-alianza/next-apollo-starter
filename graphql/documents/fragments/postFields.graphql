@@ -1,0 +1,10 @@
+fragment postFields on Post {
+    id
+    title
+    content
+    publishedAt
+    deletedAt
+    author {
+        ...userFields
+    }
+}

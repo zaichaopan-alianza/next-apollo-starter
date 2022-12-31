@@ -1,0 +1,11 @@
+query GetPosts {
+  posts {
+    ...postFields
+  }
+}
+
+query getPost($id: ID!) {
+  post(id: $id) {
+    ...postFields
+  }
+}

@@ -1,0 +1,6 @@
+mutation CreateUser($input: CredentialInput!) {
+  createUser(input: $input) {
+    success
+    message
+  }
+}
